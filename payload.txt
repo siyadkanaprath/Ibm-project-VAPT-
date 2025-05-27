@@ -1,0 +1,1 @@
+{{ subprocess.Popen(['whoami'], stdout=subprocess.PIPE).stdout.read() }}
